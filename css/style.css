@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+} 
+
+.flex {
+    display: flex;
+}
+
+.w-100 {
+    width: 100%;
+}
+.sidebar {
+    width: 300px;
+    border: 1px solid black;
+    height: calc(100vh - 70px);
+}
+
+.menu-header {
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.container-tracks  {
+    height: calc(100vh - 130px);
+    width: 100%;
+    border: 1px solid black;
+}
