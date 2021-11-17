@@ -28,8 +28,16 @@
     padding: 10px 10px;
 }
 
-.logo img{
+.logo img {
     height: 40px;
+}
+
+.logo-user {
+    border: 1px solid gray;
+    border-radius: 500px;
+    height: 30px;
+    background-color: gray;
+    margin-right: 10px;
 }
 
 .menu-header {
@@ -80,13 +88,23 @@
     margin-bottom: 15px;
 }
 
-.new-playlist {
+.new-playlist, .user-section-button {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 10px;
 }
 
+
+.user-section-button {
+    color: white;
+    padding: 10px;
+}
+
+.user-section-button p{
+    color: white;
+
+}
 .new-playlist-icon {
     display: flex;
     margin-right: 14px;
